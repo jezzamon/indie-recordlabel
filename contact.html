@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/osr-logo.png" alt="Open Source Records logo">
+
+      <ul class="nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="bands.html">Bands</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="content-section">
+      <h1>Contact</h1>
+
+      <form>
+        <label for="band-name">Band Name</label>
+        <input type="text" id="band-name">
+        <label for="your-story">Your Story</label>
+        <textarea id="your-story"></textarea>
+        <label for="on-tour">On Tour</label>
+        <input type="checkbox" id="on-tour">
+        <input type="submit" value="Tell us about your band">
+        <input type="search" placeholder="search">
+        <input type="email" placeholder="email">  
+        
+        <input type="text" list="browsers" placeholder="pulldown list">
+          <datalist id="browsers">
+            <option value="reviews">
+            <option value="profiles">
+            <option value="announcements">
+            </datalist>
+        <input type="text" pattern="[0-9]{10}">
+      </form>
+    </div>
+  </body>
+</html>
